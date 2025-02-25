@@ -293,3 +293,8 @@ block__head-photo {
   color: #000;
   background-color: #191919;
 }
+
+.image-slider{
+ text-align: center;
+  margin: 20px auto;
+}
