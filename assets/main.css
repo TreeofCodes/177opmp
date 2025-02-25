@@ -297,3 +297,9 @@ element {
   border-bottom-left-radius:8px;
   border-bottom-right-radius:8px;
 }
+
+.site-wrapper {
+  padding: 64px 0 80px;
+  color: #000;
+  background-color: #191919;
+}
