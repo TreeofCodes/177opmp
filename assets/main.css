@@ -64,6 +64,8 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
+  text-align: left;
 }
 
 /* Padding for spacing */
