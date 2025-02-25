@@ -174,3 +174,28 @@ body {
     max-width: 1336px;
   }
 }
+
+#content{
+  padding:56px 32px 44px 39px;
+  background:no-repeat center/cover;
+  z-index:1;
+  display:flex;
+  align-items:flex-start;
+  position:relative
+}
+
+#content:after {
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  content:"";
+  z-index:-1;
+  background:black linear-gradient(180deg,rgba(255,0,0,.81) 0%,rgba(255,0,0,0) 100%);
+  opacity:.8;
+  transform:scaleY(-1)
+}
