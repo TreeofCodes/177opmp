@@ -282,7 +282,10 @@ element {
 }
 .content-container {
   padding: 0;
-
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  text-align: left;
   max-width: 1336px;
 
 }
