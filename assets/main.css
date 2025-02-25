@@ -35,17 +35,6 @@ body {
   font-style: normal;
 }
 
-body {
-  background-color:#000;
-  color:#fff;
-  padding:0;
-  width:100%;
-  -webkit-print-color-adjust:exact;
-  margin:0 auto;
-  overflow-anchor:none;
-  text-align: center;
-  overflow:hidden
-}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
