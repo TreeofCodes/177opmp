@@ -271,6 +271,8 @@ block__head-photo {
 
 .block_description {
   margin-bottom:65px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .lead2 {
