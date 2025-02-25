@@ -276,3 +276,13 @@ block__head-photo {
 .lead2 {
   font-size: 14px;
 }
+
+
+element {
+}
+.content-container {
+  padding: 0;
+
+  max-width: 1336px;
+
+}
