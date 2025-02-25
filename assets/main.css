@@ -218,7 +218,7 @@ body {
   width:100%;
   height:100%;
   content:"";
-  background:url(/assets/img/pictures/texture-grunge.png) repeat;
+  background:url(../assets/texture-grunge.png) repeat;
   mix-blend-mode:exclusion;
   transform:scaleY(-1);
   filter:brightness(3) contrast(5);
