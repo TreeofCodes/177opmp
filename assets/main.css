@@ -295,15 +295,15 @@ block__head-photo {
 }
 
 .image-slider{
- text-align: center;
+  text-align: center;
   margin: 20px auto;
 }
 
 .button-full {
   text-decoration:none;
+  text-align: center;
   display:block;
   width:100%;
-  border-radius:40px;
   color:#fff;
   border:none;
   padding:16px 40px;
@@ -316,5 +316,5 @@ block__head-photo {
   font-size:20px;
   line-height:24px;
   -webkit-appearance:none;
-  border:2px solid red
+  margin: 20px 0;
 }
