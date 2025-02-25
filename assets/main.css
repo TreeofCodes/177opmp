@@ -80,6 +80,11 @@ body {
 /*
  * Header
  */
+
+.masthead{
+  margin-bottom:20px;
+}
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
