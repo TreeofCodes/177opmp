@@ -287,3 +287,7 @@ block__head-photo {
 .block_description {
   margin-bottom:65px;
 }
+
+.lead {
+  font-size: 14px;
+}
