@@ -199,3 +199,78 @@ body {
   opacity:.8;
   transform:scaleY(-1)
 }
+
+
+.block_top {
+  background:white;
+  text-align:right;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  position:relative;
+}
+@media (max-width: 767.98px) {
+  .block_top {
+    margin-bottom:0
+  }
+}
+.block_top:before {
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  content:"";
+  background:url(/assets/img/pictures/texture-grunge.png) repeat;
+  mix-blend-mode:exclusion;
+  transform:scaleY(-1);
+  filter:brightness(3) contrast(5);
+  pointer-events:none
+}
+
+
+block__head-photo {
+  max-width:210px;
+  width:100%;
+  height:210px;
+  display:inline-flex;
+  position:relative;
+  margin-right:40px;
+  border-radius:122px;
+  border:2px solid red;
+  padding:10px
+}
+@media (max-width: 1023.98px) {
+  .block__head-photo {
+    margin:0 0 20px
+  }
+}
+@media (max-width: 767.98px) {
+  .block__head-photo {
+    max-width:140px;
+    height:140px;
+    border:2px solid red;
+    border-radius:100%;
+    padding:6px
+  }
+}
+.block__head-photo  img {
+  border-radius:100%;
+  -o-object-fit:cover;
+  object-fit:cover;
+  width:100%;
+  height:100%
+}
+.block__head-photo {
+  display:inline-block;
+  max-width:50%
+}
+@media (max-width: 1023.98px) {
+  .block__head-photo {
+    text-align:center;
+    max-width:100%
+  }
+}
+
