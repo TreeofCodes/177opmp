@@ -278,15 +278,14 @@ block__head-photo {
 }
 
 
-element {
-}
+
 .content-container {
   padding: 0;
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
   text-align: left;
-  max-width: 1336px;
+  max-width: 1280px;
 
 }
 
