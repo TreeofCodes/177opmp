@@ -289,3 +289,11 @@ element {
   max-width: 1336px;
 
 }
+
+.block_main {
+  background:white;
+  padding:64px 40px 43px;
+  margin-bottom:70px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
