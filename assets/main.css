@@ -265,7 +265,7 @@ block__head-photo {
 }
 .block__head-photo {
   display:inline-block;
-  max-width:50%
+  max-width:100%
 }
 @media (max-width: 1023.98px) {
   .block__head-photo {
