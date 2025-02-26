@@ -4,15 +4,12 @@
           </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js"></script>
-
 <script type="module">
-          import Lightbox from './photoswipe-lightbox.esm.js';
+          import Lightbox from 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js';
           const lightbox = new Lightbox({
             gallery: '#my-gallery',
             children: 'a',
-            pswpModule: () => import('./photoswipe.esm.js')
+            pswpModule: () => import('https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js')
           });
           lightbox.init();
 </script>
