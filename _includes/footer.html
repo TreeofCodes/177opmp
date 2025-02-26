@@ -1,5 +1,15 @@
-          <div class="footer">
+<div class="footer">
           <div class="container">
-              <p style="color:#9d9d9d;">Creative Commons Attribution 4.0 International license</p>
-            </div>
+                    <p style="color:#9d9d9d;">Creative Commons Attribution 4.0 International license</p>
           </div>
+</div>
+
+<script type="module">
+          import Lightbox from './photoswipe-lightbox.esm.js';
+          const lightbox = new Lightbox({
+            gallery: '#my-gallery',
+            children: 'a',
+            pswpModule: () => import('./photoswipe.esm.js')
+          });
+          lightbox.init();
+</script>
