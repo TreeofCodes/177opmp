@@ -318,3 +318,8 @@ block__head-photo {
   -webkit-appearance:none;
   margin: 20px 0;
 }
+
+  .navbar-toggler {
+    color: #fff;
+    border-color: none;
+  }
