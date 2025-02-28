@@ -319,7 +319,7 @@ block__head-photo {
   margin: 20px 0;
 }
 
-.button-full:hover {
+.button-full span:hover {
   color:#red;
   text-decoration:none;
 }
