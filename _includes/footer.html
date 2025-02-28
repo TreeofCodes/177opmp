@@ -10,23 +10,15 @@
 <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
-<script type="module">
-		<script>
-			$(document).ready(function(){
-				$('.gallery').featherlightGallery({
-					gallery: {
-						fadeIn: 300,
-						fadeOut: 300
-					},
-					openSpeed:    300,
-					closeSpeed:   300
-				});
-				$('.gallery2').featherlightGallery({
-					gallery: {
-						next: 'next »',
-						previous: '« previous'
-					},
-					variant: 'featherlight-gallery2'
-				});
+<script>
+	$(document).ready(function(){
+		$('.image-slider').featherlightGallery({
+			gallery: {
+				fadeIn: 300,
+				fadeOut: 300
+			},
+				openSpeed:    300,
+				closeSpeed:   300
 			});
+		});
 </script>
