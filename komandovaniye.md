@@ -1,4 +1,0 @@
----
-layout: command
-title: command
----
