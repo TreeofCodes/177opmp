@@ -396,3 +396,9 @@ block__head-photo {
      border-color: #2ecc71;
      color: white;
  }
+
+.btn-alt-dark {
+  color: #fff;
+  background-color: #1a1f1d;
+  border-color: none;
+}
