@@ -159,7 +159,7 @@ body {
 }
 
 #content{
-  padding:56px 32px 44px 39px;
+  padding:56px 32px 44px 60px;
   background:no-repeat center/cover;
   z-index:1;
   display:flex;
